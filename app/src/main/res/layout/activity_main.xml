@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"/>
+
+    <!-- /////////////////////////// -->
+
+        <LinearLayout
+            android:id="@+id/noMusic"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fighter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="The Best Nasheed Collection No Music | Halal"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Copyright Disclaimer under Section 107 of the copyright act 1976, allowance is made for fair use for purposes such as criticism, comment, news reporting, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 5:00"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+        <LinearLayout
+            android:id="@+id/noMusic1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/history" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="The Best Nasheed Collection 💙😌 No Music | Halal"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Nasheed - Playlist best Nasheed (Nasheed for Study / Nasheed for Sleep)  0:00 (I Rise) 4:06 (Ya Quluban) 7:04 (Ya Ummi - my mother)  / @ahmedbukhatir   10:37 (Tabalagh Bil Qaleel) 14:26 (Taweel Alshawq) 19:53 (the way of tears)  / @ahmedbukhatir   23:27 (Ya Adheeman)  27:17 (the beauty of existence )"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 31:41"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+        <LinearLayout
+            android:id="@+id/noMusic2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/allah" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="99 names of Allah || asma Ul husna. || Lofi Quran || calming and soothing"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Relaxing and calming Quran #recitation to help you fall asleep or focus during studying. if you're looking for a way to relax and focus while studying, then you should check out this lofi Quran. This recitation is calming and relaxing, perfect for when you need to get focused or fall asleep. With rain and wind sound,  subscribe to our channel for beautiful Quran recitations. "
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 3:35"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+        <LinearLayout
+            android:id="@+id/noMusic3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/life" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="NAAT: Jaane Janaan | Ayaan Sajad | Arif Mir | Rj Umar Nisar"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Credits:  Radio Partner: 92.7 BIG FM Produced By: Mashq Talks Podcast Co-Presented By: Federal Aviation Academy  Label: Mashq Talks - Music Singer: Ayaan Sajad  Music, Mix and Master: Arif Mir Lyrics: Moulana Anwar Shopaini (R.A) Director: Rj Umar Nisar Story Screenplay: RJ Umar Nisar Production: Numaan Yousuf, Hamid Mir and Zubair Ahmad Recording: SXR Studio  Assistant Director (s): Ada Bhat Sajad Nisar  Special Thanks:  Dr Sajad Hussain Mir Gazanfar- SXR Adil Teli  Ubaid Yousuf  Basharat Rashid  Umer RB Junaid-Ul-Islam  Peerzada Zubair  Khyen Khordan By Ruhab Extracts, Zero Bridge"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 5:03"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+
+        <LinearLayout
+            android:id="@+id/noMusic4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/anasheeds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="Soldiers of Allah (feat. Ahmed Al Muqit)"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Provided to YouTube by CDBaby  Soldiers of Allah (feat. Ahmed Al Muqit) · Muhammad Al Muqit · Ahmed Al Muqit  Anasheeds, Vol. 5  ℗ 2018 Muhammad Al Muqit  Released on: 2018-11-09  Auto-generated by YouTube."
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 4:22"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+
+        <LinearLayout
+            android:id="@+id/noMusic5"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#E2EAF4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/soul" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:maxLines="2"
+                    android:text="5 Soul healing Nasheeds || Slowed reverb || Happiness"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxLines="4"
+                    android:text="Disclaimer  Under section 107 of the copyright Act 1976, allowance is mad for FAIR USE for purpose such a as criticism, comment, news reporting, teaching, scholarship and research. Fair use is a use permitted by copyright statues that might otherwise be infringing. Non- Profit, educational or personal use tips the balance in favor of FAIR USE. Arabic relaxing nasheed , vocals only nasheed , duff only nasheed , no music nasheed , nasheed , nasheeds , Arabic nasheeds , Arabic Nasheed , Kun Anta nasheed , Kun Anta Arabic Nasheed , Kun atna Arabic Islamic nasheed , nasheeds for study , nasheeds for relaxation , relaxing nasheeds. The way of tears nasheed , the beauty of existence relaxing arabic nasheed."
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Duration - 24:58"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <!-- ########################## -->
+    </LinearLayout>
+</ScrollView>
